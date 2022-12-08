@@ -1,10 +1,10 @@
 import {
+  BrowserRouter as Router,
   Route,
-  Router,
   Routes,
 } from "react-router-dom";
-import {HomePage} from './pages/homepage';
-import {Header} from './components/header';
+import { HomePage } from './pages/homepage';
+import { Header } from './components/header';
 
 function App() {
   return (
@@ -12,13 +12,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/">
-            <HomePage />
-          </Route>
+          <Route path="/" element = { <HomePage /> } />
         </Routes>
       </div>
     </Router>
-    
   );
 }
 
