@@ -1,0 +1,42 @@
+.bookitem{
+    text-decoration: none;
+    color: aliceblue;
+    width: 320px;
+    height: 600px;
+    background-color:  rgb(90, 85, 90);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 50px;
+}
+
+.bookitem:not(:last-child){
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.bookitem-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bookitem-genre{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.bookitem-details{
+    padding: 10px 20px;
+}
+
+.bookitem-description{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.bookitem-buy{
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+}
