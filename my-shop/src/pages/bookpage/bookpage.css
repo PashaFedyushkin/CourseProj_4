@@ -1,3 +1,17 @@
-.bookpage{
-    width: 200px;
+.bookpage-content{
+    display: flex;
+}
+
+.bookpage-left{
+    width: 70%;
+}
+
+.bookpage-right{
+    width: 30%;
+}
+
+.bookpage-buy-book{
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 20px;
 }
